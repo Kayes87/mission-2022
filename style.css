@@ -4,19 +4,29 @@ body{
 }
 h1{
     color: black;
-    font-weight: 800;
-    font-size: 50px;
+    font-weight: 400;
+    font-size: 60px;
     border-left: 5px rgb(55, 5, 233) solid;
 }
 h2{
     color: black;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 700;
     text-align: center;
+    font-family: Poppins;
+}
+h3{
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+}
+h4{
+    font-size: 24px;
+    font-weight: 700;
 }
 p{
     font-size: 18px;
-    color:3E3E3E;
+    color:#424242;
     font-weight: normal;
 }
 a{
@@ -49,36 +59,78 @@ a{
     margin-top: -50px;
 } 
 .mission-section{
-    margin:5px 10px;
+    margin:10px 70px;
     display:flex;
 }
 .mission{
-    background-color: aqua;
+    background-color: rgba(79, 157, 166, 0.1);
     width: 30%;
-    border-radius: 10px;
-    padding: 0px 10px;
+    border-radius: 26px;
+    padding: 20px 20px;
     margin: 2px 10px;
 }
 .mission img{
     width: 50%;
 }
 .vission{
-    background-color: rgb(190, 135, 15);
+    background-color:rgba(255, 89, 89, 0.1);;
     width: 30%;
-    border-radius: 10px;
-    padding: 0px 10px;
+    border-radius: 26px;
+    padding: 20px 20px;
     margin: 2px 10px;
 }
 .vission img{
     width: 50%;
 }
 .goal{
-    background-color: rgb(152, 177, 14);
+    background-color:#FFF4D6;
     width: 30%;
-    border-radius: 10px;
-    padding: 0px 10px;
+    border-radius: 26px;
+    padding: 20px 20px;
     margin: 2px 10px;
 }
 .goal img{
     width: 50%;
+}
+.developer{
+    margin:10px 20px;
+    display:flex;
+}
+.coding{
+    width: 30%;
+    padding-left: 5%;
+    margin-top: 50px;
+    background-image: url(images/shapes/shape-1.png);
+    background-position: left;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.coding img{
+    width: 100%;
+}
+.coding-text{
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 50px;
+}
+.community{
+    margin:70px 20px;
+    display:flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 200px;
+    background-position: bottom 0px right 75px;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.community-text{
+    width: 50%;
+    padding-left: 5%;
+}
+.com-pic{
+    width: 30%;
+}
+.com-pic img{
+    width: 100%;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
