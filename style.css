@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+    border-left: 5px rgb(55, 5, 233) solid;
+}
+p{
+    font-size: 18px;
+    color:3E3E3E;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.banner{
+    margin:10px 20px;
+    display:flex;
+}
+.slogan{
+    color:rgb(14, 245, 233);
+}
+.profile-title{
+    width: 40%;
+    padding-left: 5%;
+}
+.button-line{
+    padding-top: 20px;;
+}
+.profile{
+    width:40%;
+    padding-left: 5%;
+}
+.profile img{
+    width:100%;
+    margin-top: -50px;
+} 
