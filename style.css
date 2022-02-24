@@ -151,3 +151,19 @@ footer{
     padding-bottom: 40px;
     font-weight: normal;
 }
+.apps{
+    margin:10px 20px;
+    display:flex; 
+}
+.business{
+    width: 40%;
+    padding-left: 5%;
+    margin-top: 50px;
+}
+.startup{
+    width: 50%;
+    margin-top: 60px;
+}
+.business img{
+    width: 100%;
+}
